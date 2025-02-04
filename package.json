@@ -9,19 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tiptap/pm": "^2.11.3",
+    "@tiptap/react": "^2.11.3",
+    "@tiptap/starter-kit": "^2.11.3",
+    "lodash.debounce": "^4.0.8",
+    "next": "15.1.6",
+    "pdfjs-dist": "^4.10.38",
+    "pspdfkit": "^2024.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "react-pdf-highlighter": "^8.0.0-rc.0",
+    "react-rnd": "^10.4.14"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@types/lodash.debounce": "^4.0.9",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
